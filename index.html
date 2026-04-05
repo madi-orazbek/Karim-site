@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>С днем рождения, Kacanz!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-glow glow-left"></div>
+  <div class="page-glow glow-right"></div>
+  <div class="stars"></div>
+  <div class="speed-lines"></div>
+
+  <header class="hero" id="top">
+    <nav class="topbar">
+      <div class="logo-wrap">
+        <div class="logo-badge">CPM</div>
+        <div class="logo-text">
+          <span class="logo-title">Birthday Multiplayer</span>
+          <span class="logo-subtitle">exclusive card for Kacanz</span>
+        </div>
+      </div>
+
+      <div class="hud-mini">
+        <span class="hud-pill">server: night city</span>
+        <span class="hud-pill">weather: neon</span>
+        <span class="hud-pill">mood: max tuned</span>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <div class="hero-text reveal">
+        <p class="eyebrow">легендарный заезд дня рождения</p>
+        <h1>С днём рождения, <span>Kacanz</span>!</h1>
+        <p class="hero-description">
+          Сегодня ночной город светится ярче обычного, потому что на парковку
+          выезжает главный фанат стиля, скорости и красивых тачек.
+          Пусть каждый новый уровень жизни открывается как редкий гараж,
+          а каждая мечта заводится с пол-оборота.
+        </p>
+
+        <div class="hero-tags">
+          <span>Ночной город</span>
+          <span>Неон</span>
+          <span>Тюнинг</span>
+          <span>BMW Vibes</span>
+          <span>Parking Legend</span>
+        </div>
+
+        <div class="hero-actions">
+          <button class="action-btn primary" data-effect="hidden-message">
+            Открыть секретное поздравление
+          </button>
+          <button class="action-btn secondary" data-effect="ideal-parking">
+            Режим идеальной парковки
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-car-card reveal delay-1">
+        <div class="car-card-frame">
+          <div class="car-card-header">
+            <span class="status-dot"></span>
+            <span>любимая тачка именинника</span>
+          </div>
+
+          <div class="car-visual" id="carVisual">
+            <!-- Если хочешь использовать реальное изображение BMW M5 Comp,
+                 вставь ссылку в style="background-image: url('ССЫЛКА_НА_ИЗОБРАЖЕНИЕ');"
+                 у блока .car-image ниже -->
+            <div class="car-image"></div>
+            <div class="car-neon-under"></div>
+            <div class="headlight left"></div>
+            <div class="headlight right"></div>
+            <div class="smoke smoke-left"></div>
+            <div class="smoke smoke-right"></div>
+          </div>
+
+          <div class="car-specs">
+            <div class="spec-item">
+              <span class="spec-label">Модель</span>
+              <span class="spec-value">BMW M5 Comp</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Статус</span>
+              <span class="spec-value accent">dream car unlocked</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Аура</span>
+              <span class="spec-value">легенда ночных парковок</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="stats-section reveal" id="stats">
+      <div class="section-title">
+        <p class="eyebrow">игровой профиль</p>
+        <h2>Профиль водителя: Kacanz</h2>
+      </div>
+
+      <div class="stats-grid">
+        <article class="stat-card">
+          <span class="stat-value">99</span>
+          <span class="stat-label">уровень водителя</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value">0</span>
+          <span class="stat-label">штрафов</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value">MAX</span>
+          <span class="stat-label">дрифт</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value">100%</span>
+          <span class="stat-label">харизма на парковке</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value">BMW</span>
+          <span class="stat-label">король гаража</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value">∞</span>
+          <span class="stat-label">стиль и вайб</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="bmw-section reveal" id="bmw">
+      <div class="section-title">
+        <p class="eyebrow">главная звезда гаража</p>
+        <h2>BMW M5 Comp — тачка мечты</h2>
+      </div>
+
+      <div class="bmw-layout">
+        <div class="bmw-info-card">
+          <p>
+            Это не просто машина. Это тот самый автомобиль, который выглядит так,
+            будто ночной город был создан специально под его фары. Мощная, дерзкая,
+            статусная и безумно красивая — BMW M5 Comp идеально подходит тому,
+            кто любит стиль, уверенность и ощущение полного контроля.
+          </p>
+          <p>
+            Для Kacanz это не просто BMW. Это символ вкуса, силы характера и
+            главного правила любой парковки: если приехал красиво, значит уже победил.
+          </p>
+
+          <div class="bmw-highlights">
+            <span>Night Racer Aura</span>
+            <span>Street King Energy</span>
+            <span>Luxury + Aggression</span>
+            <span>Perfect for CPM vibes</span>
+          </div>
+        </div>
+
+        <div class="dashboard-card">
+          <div class="dashboard-line">
+            <span>легенда парковки</span>
+            <strong>подтверждено</strong>
+          </div>
+          <div class="dashboard-line">
+            <span>уважение на сервере</span>
+            <strong>999+</strong>
+          </div>
+          <div class="dashboard-line">
+            <span>скилл задней парковки</span>
+            <strong>без камеры и паники</strong>
+          </div>
+          <div class="dashboard-line">
+            <span>шанс получить BMW</span>
+            <strong>материализуется</strong>
+          </div>
+          <div class="dashboard-line">
+            <span>режим праздника</span>
+            <strong class="live-pulse">активен</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls-section reveal" id="controls">
+      <div class="section-title">
+        <p class="eyebrow">панель управления атмосферой</p>
+        <h2>Нажимай кнопки и запускай эффекты</h2>
+      </div>
+
+      <div class="controls-grid">
+        <button class="control-tile" data-effect="neon">
+          <span class="control-title">Включить неон</span>
+          <span class="control-desc">Подсветка днища и интерфейса</span>
+        </button>
+
+        <button class="control-tile" data-effect="drift">
+          <span class="control-title">Режим дрифта</span>
+          <span class="control-desc">Дым, вибрация, боком красиво</span>
+        </button>
+
+        <button class="control-tile" data-effect="flash">
+          <span class="control-title">Сигнал фар</span>
+          <span class="control-desc">Подмигнуть по-братски</span>
+        </button>
+
+        <button class="control-tile" data-effect="turbo">
+          <span class="control-title">Турбо-анимация</span>
+          <span class="control-desc">Ускорение праздника до максимума</span>
+        </button>
+
+        <button class="control-tile" data-effect="hidden-message">
+          <span class="control-title">Скрытое поздравление</span>
+          <span class="control-desc">Секретный уровень открытки</span>
+        </button>
+
+        <button class="control-tile" data-effect="ideal-parking">
+          <span class="control-title">Идеальная парковка</span>
+          <span class="control-desc">Шутливый авто-режим гения</span>
+        </button>
+      </div>
+
+      <div class="message-console" id="messageConsole">
+        <p class="console-label">system message</p>
+        <div class="console-screen" id="consoleScreen">
+          Нажми любую кнопку — и праздничный режим станет ещё эпичнее.
+        </div>
+      </div>
+    </section>
+
+    <section class="jokes-section reveal" id="jokes">
+      <div class="section-title">
+        <p class="eyebrow">юмор из мира парковки</p>
+        <h2>Праздничные шутки для Kacanz</h2>
+      </div>
+
+      <div class="jokes-grid">
+        <article class="joke-card">
+          <p>
+            Говорят, если Kacanz паркуется в Car Parking Multiplayer,
+            даже бордюр начинает стоять ровнее — из уважения.
+          </p>
+        </article>
+
+        <article class="joke-card">
+          <p>
+            BMW M5 Comp у Kacanz настолько желанная, что даже NPC на парковке
+            делают вид, будто пришли просто посмотреть.
+          </p>
+        </article>
+
+        <article class="joke-card">
+          <p>
+            У некоторых “идеальная парковка” — это удача.
+            У Kacanz — базовая заводская комплектация.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="hidden-message-section" id="hiddenMessageSection">
+      <div class="hidden-message-card">
+        <p class="eyebrow">секретный уровень открытки</p>
+        <h2>Специальное поздравление</h2>
+        <p>
+          Kacanz, пусть в твоей жизни всегда будет топовый гараж возможностей,
+          полный бак вдохновения, верные люди рядом и дорога только вперёд.
+          Желаю, чтобы каждый день дарил эмоции как редкая машина в любимой игре,
+          а мечты, особенно про BMW M5 Comp, становились реальностью не в меню,
+          а прямо у тебя перед глазами.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer reveal">
+    <p>night city loaded • birthday mode active • BMW spirit online</p>
+    <a href="#top" class="back-top">↑ Вернуться на старт</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
